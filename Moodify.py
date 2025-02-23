@@ -10,15 +10,15 @@ import pyttsx3
 import time
 
 # Spotify credentials
-SPOTIPY_CLIENT_ID = "118ec1dc1a19479da6f7cee34cc0f726"
-SPOTIPY_CLIENT_SECRET = "e06537bcdaee45d1ba850fafacc863fd"
-SPOTIPY_REDIRECT_URI = "http://localhost:8888/callback"
+SPOTIPY_CLIENT_ID = "fill it by ur id"
+SPOTIPY_CLIENT_SECRET = "fill it by ur id"
+SPOTIPY_REDIRECT_URI = "fill it with url"
 MOOD_PLAYLISTS = {
-    "happy": "https://open.spotify.com/playlist/2ZS9V61O3pj0n7LpjGI7Oa?si=YyY6PK6iRW6r1Iw0IXiiyg",
-    "sad": "https://open.spotify.com/playlist/2kkDpjP0pBECORlKHqLP7g?si=lvo18_tMRo2r6o2ugHb1qg",
-    "neutral": "https://open.spotify.com/playlist/0fEYWR83K2Y91DxcuG410D?si=vdlvHrVaRkqRqOhVE_X1hw&pi=rm0NdRuETeyxt",
-    "angry": "https://open.spotify.com/playlist/2j2yYTwHKA4H71EN4WTxLS?si=vL-wpqm2ShaMzVxu2VJj1w",
-    "fear":"https://open.spotify.com/playlist/0HWQdeMxCQuVwBjX05DdVW?si=WduxhIbrQlu1zNLRhKON1Q",
+    "happy": "happy playlist link",
+    "sad": "sad playlit link",
+    "neutral": "neutral playlist link",
+    "angry": "angry playlist link",
+    "fear":"fear playlist link",
 }
 
 class MoodifyApp:
